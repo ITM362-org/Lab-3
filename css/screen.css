@@ -204,6 +204,43 @@ label {
   display: block;
 }
 
+@media screen and (min-width: 480px){
+h1{
+	font-size: 1.75em;
+	color: white;
+	line-height: 1.375em;
+}
+	
+html{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+  background-color: #c0c0c0;		
+}
+
+#submit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #dddddd;
+	border-style: outset;
+}
+
+#content{
+	text-align: center;
+	border: solid;
+	border-width: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: sticky;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	background-color: #727272;
+}
+	
+}
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
