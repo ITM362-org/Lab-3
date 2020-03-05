@@ -243,8 +243,27 @@ html{
 	margin: auto;
 	background-color: #727272;
 }
-	
+
 }
+
+@media screen and (min-width: 768px){
+	h1{
+	font-size: 1.75em;
+	color: white;
+	line-height: 1.375em;
+}
+
+ p, label{
+    font-size: 1.75em;
+    line-height: 1.75em;
+  }
+  
+  #submit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #dddddd;
+	border-style: outset;
+
 /* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
